@@ -1,0 +1,23 @@
+<!-- 3. Write a  JAVA program to concatenate two strings.  -->
+
+<!DOCTYPE html>
+<head>
+	<title>getConcatenateString</title>
+	<script>
+		function getcon(){
+			let s1=document.getElementById("t1").value;
+			let s2=document.getElementById("t2").value;
+			document.write("Your 1st String :: "+s1);
+			document.write("<br>Your 2nd String :: "+s2);
+			let str=s1+" "+s2;
+			document.write("<br>Concate String :: "+str);
+		}
+	</script>
+	
+</head>
+<body>
+	<input type="text" id="t1" name="t"/>
+	<input type="text" id="t2" name="t"/>
+	<input type="button" name="s" value="get concatenate String " onclick="getcon()" />
+</body>
+</html>

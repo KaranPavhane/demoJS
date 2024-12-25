@@ -1,0 +1,28 @@
+<!-- 13.Write a  JAVA program to reverse order of words in a given string.-->
+ <!DOCTYPE html>
+<head>
+	<title>Reverse Word</title>
+	<script>
+		function show(){
+			let str=prompt("Enter the String ");
+			document.write("your string : "+str);
+			let s=""
+			for(let i=0; i<str.length; i++){
+				s=s+str.charAt(str.length-1-i);
+			}
+
+			let ch=str.split('');
+			
+			//ch.forEach(c=>document.write(c+"<br>"));			
+
+			for(let i=0; i<ch.length; i++){
+				document.write(ch[i]+"<br>");
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="button" name='b' value="click here" onclick="show()">
+</body>
+
+</html>
